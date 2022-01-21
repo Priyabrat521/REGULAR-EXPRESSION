@@ -8,7 +8,7 @@
 # --------
 # EX-1
 # --------
-from operator import imod
+ 
 import re
 pattern=re.compile('ab')
 matcher=pattern.finditer('abaabaaaab')
